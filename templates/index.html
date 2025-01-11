@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Enter Your Diet Plan Preferences</h1>
+    <form action="/" method="POST">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required><br><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+        <label for="dietary_preferences">Dietary Preferences:</label>
+        <select id="dietary_preferences" name="dietary_preferences">
+            <option value = "Vegetarian">Vegetarian</option>
+            <option value = "Non-Vegetarian">Non-Vegetarian</option>
+        </select>
+        <br><br>
+        <label for="health_goal">Health Goal:</label>
+        <select id="health_goal" name="health_goal">
+            <option value = "Weight Loss">Weight Loss</option>
+            <option value = "Muscle Gain">Muscle Gain</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
